@@ -3,7 +3,7 @@ import Dropdown from "@/Components/Dropdown";
 import NavLink from "@/Components/NavLink";
 import ResponsiveNavLink from "@/Components/ResponsiveNavLink";
 import { Link, usePage } from "@inertiajs/react";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function Authenticated({ header, children }) {
     const page = usePage();
@@ -11,10 +11,6 @@ export default function Authenticated({ header, children }) {
 
     const [showingNavigationDropdown, setShowingNavigationDropdown] =
         useState(false);
-
-    useEffect(() => {
-        console.log("Authenticated Layout Mounted");
-    }, []);
 
     return (
         <div className="min-h-screen bg-gray-100 dark:bg-gray-900">

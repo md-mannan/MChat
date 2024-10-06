@@ -56,7 +56,7 @@ const ConversationItem = ({
                         : "")
                 }
             >
-                <div className="flex gap-1 justify-center items-center">
+                <div className="flex gap-1 justify-start items-center">
                     <h3 className="text-sm font-semibold overflow-hidden text-nowrap text-ellipsis">
                         {conversation.name}
                     </h3>

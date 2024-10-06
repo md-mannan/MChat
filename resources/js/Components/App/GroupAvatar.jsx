@@ -5,7 +5,7 @@ const GroupAvatar = ({}) => {
         <div className={`avatar placeholder`}>
             <div className={` bg-gray-400 text-gray-800 rounded-full w-8`}>
                 <span className="text-xl">
-                    <UserIcon className="w-4" />
+                    <UserIcon className="w-4 h-4" />
                 </span>
             </div>
         </div>
